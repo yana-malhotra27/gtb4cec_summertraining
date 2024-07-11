@@ -5,7 +5,7 @@ public class operators {
         int a=7, b=9;
         System.out.println(a+b);
         // arithematic operators
-        int c=2, d=3;
+       // int c=2, d=3;
         //+,-,*, /, %, ++, --
         a=a+b; //5
         b=b+a; //8
