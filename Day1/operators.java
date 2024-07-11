@@ -4,7 +4,7 @@ public class operators {
     public static void main(String[] args) {
         int a=7, b=9;
         System.out.println(a+b);
-        // arithematic operators
+        // arithmetic operators
        // int c=2, d=3;
         //+,-,*, /, %, ++, --
         a=a+b; //5
