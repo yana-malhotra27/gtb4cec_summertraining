@@ -32,5 +32,7 @@ public class que33 {
 
             System.out.println();
         }
+        //sc.close();    add this later
+    
     }
 }
