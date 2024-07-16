@@ -81,7 +81,6 @@ public class arrays2 {
         // swapArray(arr);
         // displayArray(arr);
         //System.out.println(findmaxArray(arr));
-        // problem
         swappartArray(arr,2,6);
         displayArray(arr);
     }
