@@ -47,7 +47,6 @@ public class arrays2 {
             change(arr,i++,j--);
         }
     }
-    //problem
     public static void swappartArray(int[] arr, int i, int j){
         //code for reverse an array only a part
         while(i<j){
