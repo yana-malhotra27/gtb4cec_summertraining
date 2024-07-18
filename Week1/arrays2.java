@@ -1,7 +1,9 @@
 package Week1;
 import java.util.Scanner;
 //import java.util.Arrays;
+//rapper class Integer[] = [1,2,3,4,5];
 //int maximum=Collection.max(Arrays.asList(arr));
+//int maximum=Collection.min(Arrays.asList(arr));
 //hw:for each loop study
 public class arrays2 {
     public static int displaysumArray(int[] arr){
@@ -63,6 +65,16 @@ public class arrays2 {
         }
         return max;
     }
+    public static int findminArray(int[] arr){
+        //code for finding min element
+        int min=0;
+        for(int i=0;i<arr.length;i++){
+            if (min>arr[i]){
+                min=arr[i];
+            }
+        }
+        return min;
+    }
     public static void main(String[] args) {
         int[] arr = new int[10];
         Scanner sc = new Scanner(System.in);
@@ -81,7 +93,8 @@ public class arrays2 {
         // swapArray(arr);
         // displayArray(arr);
         //System.out.println(findmaxArray(arr));
-        swappartArray(arr,2,6);
-        displayArray(arr);
+        // swappartArray(arr,2,6);
+        // displayArray(arr);
+        System.out.println(findminArray(arr));
     }
 }
