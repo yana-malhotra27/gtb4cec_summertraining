@@ -4,6 +4,12 @@ import java.util.Collections;
 import java.util.Scanner;
 
 public class sorting2 {
+    public static void displayArray(int[] arr){
+        //code for displaying my array
+        for(int i=0;i<arr.length;i++){
+            System.out.print(arr[i]+" ");
+        }
+    }
     public static int findmaxArray(int[] arr){
         //code for finding max element
         int max=0;
@@ -80,9 +86,10 @@ public class sorting2 {
         //selectionSort(arr);
         //insertionSort(arr);
         //Arrays.sort(arr);
+        //displayArray(arr);
         //for each loop
         for(int i:arr){
-            System.out.print(arr[i]+" ");
+            System.out.print(i+" ");
         }
     }
     
