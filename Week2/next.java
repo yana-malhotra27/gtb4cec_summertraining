@@ -71,7 +71,7 @@ public class next {
         //NGRCI(nums,arr);
         //NGLNI(nums, arr);
         //NGLCI(nums,arr);
-        NSRNI(nums,arr);
+        //NSRNI(nums,arr);
         //NSRCI(nums,arr);
         //NSLNI(nums,arr);
         //NSLCI(nums,arr);
