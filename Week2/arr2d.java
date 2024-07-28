@@ -77,8 +77,25 @@ public class arr2d {
         //Arrays.sort() not start in java
         //displayArray(a);
         //sortbyCol(b,3);
-        sortallRows(b);
-        sortbyCol(b,0);
+        // sortallRows(b);
+        // sortbyCol(b,0);
+        // displayArray(b);
+        int[] kk=new int[(b[0].length)*(b.length)];
+        int k=0;
+        for(int i=0;i<b.length;i++){
+            for(int j=0;j<b[i].length;j++){
+                kk[k]=b[i][j];
+                k++;
+            }
+        }
+        Arrays.sort(kk);
+        k=0;
+        for(int i=0;i<b.length;i++){
+            for(int j=0;j<b[i].length;j++){
+                b[i][j]=kk[k];
+                k++;
+            }
+        }
         displayArray(b);
     }
 }

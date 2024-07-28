@@ -84,7 +84,7 @@ public class sorting2 {
         //System.out.println(minimumValue(arr));
         //System.out.println(minimumpartValue(arr,2));
         //selectionSort(arr);
-        //insertionSort(arr);
+        insertionSort(arr);
         //Arrays.sort(arr);
         //displayArray(arr);
         //for each loop
