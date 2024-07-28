@@ -80,6 +80,7 @@ public class arr2d {
         // sortallRows(b);
         // sortbyCol(b,0);
         // displayArray(b);
+        //hw
         int[] kk=new int[(b[0].length)*(b.length)];
         int k=0;
         for(int i=0;i<b.length;i++){
