@@ -1,6 +1,5 @@
 package Week2;
 
-import java.util.Scanner;
 import java.util.*;
 public class arr2d {
     //sort
@@ -39,6 +38,12 @@ public class arr2d {
                 System.out.print(arr[i][j]+" ");
             }
             System.out.println();
+        }
+    }
+    public static void display(int[] arr){
+        //code for displaying my array
+        for(int i=0;i<arr.length;i++){
+            System.out.print(arr[i]+" ");
         }
     }
     public static void insert(int[][] arr){
@@ -81,6 +86,7 @@ public class arr2d {
         // sortbyCol(b,0);
         // displayArray(b);
         //hw
+        //Array Flattening
         int[] kk=new int[(b[0].length)*(b.length)];
         int k=0;
         for(int i=0;i<b.length;i++){
@@ -89,14 +95,16 @@ public class arr2d {
                 k++;
             }
         }
+        // for(int i=0;i<b.length;i++){
+        //     for(int j=0;j<b[i].length;j++){
+        //         b[i][j]=kk[((b[0].length)*i)+j]; //sir method formula in place of k
+        //     }
+        // }
         Arrays.sort(kk);
-        k=0;
-        for(int i=0;i<b.length;i++){
-            for(int j=0;j<b[i].length;j++){
-                b[i][j]=kk[k];
-                k++;
-            }
+        for(int i=0;i<kk.length;i++){
+            b[i/(b[0].length)][i%(b[0].length)]=kk[i]; //sir method
         }
         displayArray(b);
+        //display(kk);
     }
 }
