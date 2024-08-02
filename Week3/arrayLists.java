@@ -7,14 +7,14 @@ public class arrayLists {
     public static void main(String[] args) {
         //syntax
         ArrayList<Integer> arr=new ArrayList<>(2);
-        System.out.println(arr.size()); // calc size before '\n' or other symbol
-        System.out.println(arr);
+        //System.out.println(arr.size()); // calc size before '\n' or other symbol
+        //System.out.println(arr);
         //add
         arr.add(1);
         arr.add(2);
         arr.add(3);
         arr.add(4);
-        System.out.println(arr.size());
+        System.out.println(arr);
         //access
         System.out.println(arr.get(0));
         //remove

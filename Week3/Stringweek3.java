@@ -67,28 +67,41 @@ public class Stringweek3 {
         return c;
         
     }
+    public static void allSubstring(String m) {
+        //generate all substring
+        char k=m.charAt(0);
+        int c=0;
+        int len=0;
+        for(int i=0;i<m.length();i++){
+            for(int j=i+1;j<=m.length();j++){
+                System.out.println(m.substring(i, j));
+            }
+        }
+    }
     public static void main(String[] args) {
-        String s1 = "hi";
-        String s7 = "";
-        String s2 = new String("hi");
-        String s3 = "hi"; // string is a wrapper class not a data structure
-        char[] s4 = {'h','i'};
-        char[] s5 = {'h','i'};
-        System.out.println(s5==s4); //address compare
-        System.out.println(s5==s4);
-        s3="hi";
-        System.out.println(s1==s3);
-        System.out.println(s4[1]+" "+s1.charAt(1));
-        stringadd1(s1,s7);
-        //stringReverse(s1);
-        String s9="noon";
-        System.out.println(palindrome(s9));
-        String ss="A";
-        String sss="a";
-        System.out.println(sss.compareTo(ss));
-        System.out.println(ss.compareTo(sss));
-        System.out.println(reverseSentence("This is a car"));
-        stringrange("this s",0,2);
-        System.out.println(longestsamecharSubstring("sssskkkj"));
+        // String s1 = "hi";
+        // String s7 = "";
+        // String s2 = new String("hi");
+        // String s3 = "hi"; // string is a wrapper class not a data structure
+        // char[] s4 = {'h','i'};
+        // char[] s5 = {'h','i'};
+        // System.out.println(s5==s4); //address compare
+        // System.out.println(s5==s4);
+        // s3="hi";
+        // System.out.println(s1==s3);
+        // System.out.println(s4[1]+" "+s1.charAt(1));
+        // stringadd1(s1,s7);
+        // //stringReverse(s1);
+        // String s9="noon";
+        // System.out.println(palindrome(s9));
+        // String ss="A";
+        // String sss="a";
+        // System.out.println(sss.compareTo(ss));
+        // System.out.println(ss.compareTo(sss));
+        // System.out.println(reverseSentence("This is a car"));
+        // stringrange("this s",0,2);
+        // System.out.println(longestsamecharSubstring("sssskkkj"));
+        String m="abcde";
+        allSubstring(m);
     }
 }
