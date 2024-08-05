@@ -81,6 +81,14 @@ public class recursion {
         }
         return ans;
     }
+    static int fibonaccihead(int n){
+        //fibonacci 0, 1, 1, 2, 3, 5, 8, 13, 21....
+        //kinda tree
+        if(n==0 || n==1){
+            return n;
+        }
+        return fibonaccihead(n-1)+fibonaccihead(n-2);
+    }
     public static void main(String[] args) {
         //first n natural numbers print
         // int n=1;
@@ -103,7 +111,8 @@ public class recursion {
         //System.out.println(powHead(3,4));
         //System.out.println(powTail(3,4,1));
         //System.out.println(factHead(5));
-        System.out.println(factTail(5,1));
+        //System.out.println(factTail(5,1));
+        System.out.println(fibonaccihead(5));
     }
 
 }
