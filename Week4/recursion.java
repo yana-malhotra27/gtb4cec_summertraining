@@ -53,7 +53,33 @@ public class recursion {
         else{
             return countEvenHead(n-1);
         }
-        //return countEven(n-1, count);
+    }
+    static int powHead(int base, int pow){
+        if(pow==0){
+            return 1;
+        }
+        return base*powHead(base,pow-1);
+    }
+    static int powTail(int base, int pow,int ans){
+        if(pow==0){
+            return ans;
+        }
+        return powTail(base,pow-1,ans*base);
+    }
+    static int factHead(int n){
+        if(n==0){
+            return 1;
+        }
+        return n*factHead(n-1);
+    }
+    static int factTail(int n,int ans){
+        if(n==0){
+            return ans;
+        }
+        else{
+            ans=factTail(n-1,ans*n);
+        }
+        return ans;
     }
     public static void main(String[] args) {
         //first n natural numbers print
@@ -73,8 +99,11 @@ public class recursion {
         //System.out.println(sum(10,0));
         //System.out.println(countEven(10,0));
         //System.out.println(sumHead(10));
-        System.out.println(countEvenHead(10));
-        
+        //System.out.println(countEvenHead(10));
+        //System.out.println(powHead(3,4));
+        //System.out.println(powTail(3,4,1));
+        //System.out.println(factHead(5));
+        System.out.println(factTail(5,1));
     }
 
 }
