@@ -97,8 +97,9 @@ public class arraysand2d {
     public static void main(String[] args) {
         int[] arr={1,2,3,4,5};
         //System.out.println(kadaneAlgo(arr));
-        rotatebykbetter(arr,2);
-        displayArray(arr);
+        // rotatebykbetter(arr,2);
+        // displayArray(arr);
+        generatesubsumArray(arr);
     }
     
 }
