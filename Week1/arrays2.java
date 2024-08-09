@@ -90,11 +90,11 @@ public class arrays2 {
         //System.out.println(findArray(arr,b));
         //swap(a,b);
         //System.out.println(a+" "+b);
-        // swapArray(arr);
-        // displayArray(arr);
+        //swapArray(arr);
+        //displayArray(arr);
         //System.out.println(findmaxArray(arr));
-        // swappartArray(arr,2,6);
-        // displayArray(arr);
-        System.out.println(findminArray(arr));
+        swappartArray(arr,2,6);
+        displayArray(arr);
+        //System.out.println(findminArray(arr));
     }
 }

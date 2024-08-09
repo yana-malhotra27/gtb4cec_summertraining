@@ -1,6 +1,6 @@
 package Week1;
-import java.util.Arrays;
-import java.util.Collections;
+//import java.util.Arrays;
+//import java.util.Collections;
 import java.util.Scanner;
 
 public class sorting2 {
@@ -63,7 +63,6 @@ public class sorting2 {
         }
     }
     static void insertionSort(int arr[]){
-        int n = arr.length;
         for(int i=1;i<arr.length;i++){
             int key=arr[i];
             int j= i-1;
@@ -91,6 +90,7 @@ public class sorting2 {
         for(int i:arr){
             System.out.print(i+" ");
         }
+        sc.close();
     }
     
 }

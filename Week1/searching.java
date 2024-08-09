@@ -85,5 +85,6 @@ public class searching {
         Arrays.sort(arr);
         //System.out.println(binaryindexSearch(arr,2));
         System.out.println(binarypositionupperboundSearch(arr,2));
+        sc.close();
     }
 }

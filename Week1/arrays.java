@@ -80,6 +80,7 @@ public class arrays {
         //System.out.println(reverseNumber(m));
         //System.out.println(countDigits(m));
         System.out.println(checkArmstrong(m));
+        sc.close();
     }
     
 }

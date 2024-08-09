@@ -106,5 +106,6 @@ public class arr2d {
         }
         displayArray(b);
         //display(kk);
+        sc.close();
     }
 }
