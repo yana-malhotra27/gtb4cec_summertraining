@@ -1,9 +1,9 @@
 package Week4;
 
 import java.util.Scanner;
-import java.util.*;
+//import java.util.*;
 
-public class sudokuSolver {
+public class sudoku_Solver {
     static boolean check(int[][] sudoku, int i, int j, int n, int number){
         //chk vertical and horizontal at same time in the board
         for(int x=0;x<n;x++){

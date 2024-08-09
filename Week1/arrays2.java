@@ -96,5 +96,6 @@ public class arrays2 {
         swappartArray(arr,2,6);
         displayArray(arr);
         //System.out.println(findminArray(arr));
+        sc.close();
     }
 }
