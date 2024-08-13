@@ -3,6 +3,7 @@ import java.util.*;
 //data structure done
 //array
 //stack
+//hashmaps
 public class Stacksk {
     //stack-LIFO last in first out
     //dynamic memory
