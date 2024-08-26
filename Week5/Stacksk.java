@@ -4,12 +4,14 @@ import java.util.*;
 //array
 //stack
 //hashmaps
+//queue
 public class Stacksk {
     //stack-LIFO last in first out
     //dynamic memory
     //index starts from 1 from last
     public static int[] NGeRE(int[] user){
         //next greater
+        //monotonic stack
         int[] ans=new int[user.length];
         Stack<Integer> st=new Stack<>();
         for(int i=user.length-1;i>=0;i--){
@@ -31,6 +33,7 @@ public class Stacksk {
     }
     public static int[] NSeRE(int[] user){
         //next greater
+        //monotonic stack
         int[] ans=new int[user.length];
         Stack<Integer> st=new Stack<>();
         for(int i=user.length-1;i>=0;i--){
