@@ -96,7 +96,7 @@ public class revision {
         printarr(arr);
     }
     //fn call gets memory
-    //fn inside fn calls controller goes on inside fn and other is in posing state
+    //fn inside fn calls controller goes on inside fn and is in running state and other is in posing state
     //fn if return then the value comes where it's been called
     //create a matrix and print in zigzag order
 }
