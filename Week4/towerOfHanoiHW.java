@@ -1,17 +1,28 @@
 package Week4;
-
+import java.io.*;
+import java.math.*;
+import java.util.*;
 public class towerOfHanoiHW {
-    //not corrected incomplete
-    static void hanoi(int n,int start,int end){
-        if(n==1){
-            System.out.println(n);
+    //not self
+    static void towerOfHanoi(int n, char from_rod,
+                             char to_rod, char aux_rod)
+    {
+        if (n == 0) {
             return;
         }
-        int k=6-(start+end);
-        hanoi(n-1,start-1,end);
-        hanoi(n-1,start,end-1);
+        towerOfHanoi(n - 1, from_rod, aux_rod, to_rod);
+        System.out.println("Move disk " + n + " from rod "
+                           + from_rod + " to rod "
+                           + to_rod);
+        towerOfHanoi(n - 1, aux_rod, to_rod, from_rod);
     }
-    public static void main(String[] args) {
-        hanoi(3,1,3);
+
+    // Driver code
+    public static void main(String args[])
+    {
+        int N = 3;
+
+        // A, B and C are names of rods
+        towerOfHanoi(N, 'A', 'C', 'B');
     }
 }
