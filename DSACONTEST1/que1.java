@@ -1,5 +1,6 @@
 package DSACONTEST1;
 //STOOD AT 1ST POSITION TOTAL 2000 POINTS WITH 20 QUESTIONS EACH OF 100 MARKS
+//SECOND TEST HELD AT 13 SEP 2024 SOLVED 1 OUT OF 2 (2 HALF) TOP RANKERS
 import java.util.Scanner;
 //Sum of odd placed and even placed digits
 //Take N as input. Print the sum of its odd placed digits and sum of its even placed digits.
