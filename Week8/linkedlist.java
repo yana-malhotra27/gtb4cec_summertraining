@@ -7,7 +7,7 @@ import java.util.LinkedList;
 //linked list-collection of nodes non contagious or non - continous data structure
 //node-object (object-real world entity)
 //head node-jahan se linked list starting
-//singly linked list-when every knode knows next node
+//singly linked list-when every node knows next node
 //doubly-when node knows previous and next both
 //last node or object-tail node
 //link,how to give name,how to shift name,behaviours
