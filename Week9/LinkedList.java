@@ -12,6 +12,7 @@ public class LinkedList {
 //discontinous memory allocation-saves space, paging/segmentation (operating system)
 //bigo(n)
 //12 oct exams
+
     class Node{
         int data;
         Node next;
