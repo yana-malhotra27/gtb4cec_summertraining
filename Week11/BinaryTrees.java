@@ -1,5 +1,6 @@
 package Week11;
 import java.util.*;
+//depth for search
 public class BinaryTrees {
     class Node{
         int val;
@@ -10,6 +11,19 @@ public class BinaryTrees {
     Scanner sc = new Scanner(System.in);
     public BinaryTrees(){
         root=CreateTree();
+    }
+    public void levelOrderTraversal(){
+        Queue<Node> q= new LinkedList<>();
+        q.add(root);
+        while(!q.isEmpty()){
+            Node rv= q.remove();
+            System.out.print(rv.val+" ");
+            if(rv.left!=null)
+                q.add(rv.left);
+            if(rv.right!=null)
+                q.add(rv.right);
+        }
+        System.out.println();
     }
     public Node CreateTree(){
         System.out.println("Give value");
