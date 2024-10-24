@@ -5,6 +5,7 @@ import java.util.Queue;
 //951
 //hw-112 path sum, 129 sum of two leaves
 //701 vimp
+//red black tree and avl tree
 public class levelordertraversal {
     //left before thu 24 oct 2024 20 min oops
     //level order traversal also in binarytree written
